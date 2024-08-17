@@ -1,4 +1,4 @@
-package saketh.linkora.localization
+package saketh.linkora.localization.routing
 
 enum class Route(val route: String) {
     ENGLISH("/en"),
