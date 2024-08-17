@@ -10,7 +10,7 @@ group = "saketh"
 version = "0.0.1"
 
 application {
-    mainClass.set("saketh.ApplicationKt")
+    mainClass.set("saketh.linkora.localization.ApplicationKt")
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
