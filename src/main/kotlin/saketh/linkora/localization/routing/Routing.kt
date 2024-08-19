@@ -19,10 +19,11 @@ fun Application.configureRouting() {
                 Json.encodeToJsonElement<Info>(
                     Info(
                         totalAvailableLanguages = 2, availableLanguages = listOf(
-                            Language(languageName = "English", languageCode = "en"),
-                            Language(languageName = "Hindi", languageCode = "hi"),
-                        )
-                    ),
+                            Language(languageName = "English", languageCode = "en", localizedStringsCount = 249),
+                            Language(languageName = "Hindi", languageCode = "hi", localizedStringsCount = 200),
+                        ),
+                        totalStrings = 249
+                    )
                 )
             )
         }
@@ -40,7 +41,7 @@ fun Application.configureRouting() {
 
 class LocalizedStrings {
     fun retrieveLocalizedStrings(languageCode: Route): String {
-        val file = this::class.java.getResourceAsStream("/raw/${languageCode.route.substringAfter("/")}.xml")
+        val file = this::class.java.getResourceAsStream("/raw/${languageCode.route.substringAfter("/")}.txt")
         return file.use { it?.bufferedReader()?.readText().toString() }
     }
 }
