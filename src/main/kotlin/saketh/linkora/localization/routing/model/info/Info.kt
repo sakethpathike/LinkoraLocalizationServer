@@ -6,5 +6,6 @@ import kotlinx.serialization.Serializable
 data class Info(
     val totalAvailableLanguages: Int,
     val availableLanguages: List<Language>,
-    val totalStrings: Int
+    val totalStrings: Int,
+    val lastUpdatedOn: String
 )

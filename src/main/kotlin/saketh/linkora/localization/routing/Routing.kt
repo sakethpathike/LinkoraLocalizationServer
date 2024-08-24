@@ -19,10 +19,21 @@ fun Application.configureRouting() {
                 Json.encodeToJsonElement<Info>(
                     Info(
                         totalAvailableLanguages = 2, availableLanguages = listOf(
-                            Language(languageName = "English", languageCode = "en", localizedStringsCount = 249),
-                            Language(languageName = "Hindi", languageCode = "hi", localizedStringsCount = 200),
+                            Language(
+                                languageName = "English",
+                                languageCode = "en",
+                                localizedStringsCount = 249,
+                                contributionLink = ""
+                            ),
+                            Language(
+                                languageName = "Hindi",
+                                languageCode = "hi",
+                                localizedStringsCount = 200,
+                                contributionLink = ""
+                            ),
                         ),
-                        totalStrings = 249
+                        totalStrings = 249,
+                        lastUpdatedOn = "24-08-2024"
                     )
                 )
             )

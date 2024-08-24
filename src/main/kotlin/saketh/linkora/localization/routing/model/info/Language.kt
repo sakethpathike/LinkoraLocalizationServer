@@ -6,5 +6,6 @@ import kotlinx.serialization.Serializable
 data class Language(
     val languageName: String,
     val languageCode: String,
-    val localizedStringsCount: Int
+    val localizedStringsCount: Int,
+    val contributionLink: String
 )
