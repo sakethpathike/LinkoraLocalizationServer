@@ -26,7 +26,7 @@ fun Application.configureRouting() {
                                 contributionLink = ""
                             ),
                             Language(
-                                languageName = "Hindi",
+                                languageName = "हिंदी",
                                 languageCode = "hi",
                                 localizedStringsCount = 200,
                                 contributionLink = ""
