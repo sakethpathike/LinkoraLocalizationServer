@@ -22,18 +22,18 @@ fun Application.configureRouting() {
                             Language(
                                 languageName = "English",
                                 languageCode = "en",
-                                localizedStringsCount = 277,
+                                localizedStringsCount = 281,
                                 contributionLink = ""
                             ),
                             Language(
                                 languageName = "हिंदी",
                                 languageCode = "hi",
-                                localizedStringsCount = 277,
+                                localizedStringsCount = 281,
                                 contributionLink = ""
                             ),
                         ),
-                        totalStrings = 277,
-                        lastUpdatedOn = "26-08-2024"
+                        totalStrings = 281,
+                        lastUpdatedOn = "26-08-2024::11:25 PM"
                     )
                 )
             )
