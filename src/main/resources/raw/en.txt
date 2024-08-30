@@ -158,7 +158,7 @@
     <string name="permission_is_denied_desc">It seems you\'ve denied the permission, Linkora needs storage access to export links to a JSON file in your local storage.</string>
     <string name="go_to_settings">Go to Settings</string>
     <string name="retrieving_latest_information">Retrieving latest information, this may take sometime.</string>
-    <string name="new_update_is_available">Linkora just got better,\\nnew update is available.</string>
+    <string name="new_update_is_available">Linkora just got better,\n new update is available.</string>
     <string name="current_version">version you\'re using</string>
     <string name="latest_version">latest version which you should be using</string>
     <string name="release_page_on_github">release page on GitHub</string>
@@ -191,7 +191,7 @@
     <string name="show_description_for_settings_desc">If this setting is enabled, detailed descriptions will be visible for certain settings, like the one you\'re reading now. If it is disabled, only the titles will be shown.</string>
     <string name="successfully_exported">Successfully Exported</string>
     <string name="import_data">Import Data</string>
-    <string name="import_data_from_external_json_file">Import Data from external JSON file.\"</string>
+    <string name="import_data_from_external_json_file">Import Data from external JSON file.</string>
     <string name="export_data_desc">Export all of your data in JSON format.</string>
     <string name="delete_entire_data_permanently">Delete entire data permanently</string>
     <string name="delete_entire_data_permanently_desc">Delete all links and folders permanently including archives.</string>
@@ -280,4 +280,8 @@
     <string name="are_you_sure_want_to_delete_the_panel">Are you sure want to delete the panel named \"$$$$\"?</string>
     <string name="are_you_sure_want_to_delete_the_folder">Are you sure want to delete the folder $$$$?</string>
     <string name="rename_folder">Rename \"$$$$\" folder:</string>
+    <string name="create_a_new_internal_folder_in">Create a new internal folder in \"$$$$\":</string>
+    <string name="show_associated_image_in_link_menu">Show associated image in link menu</string>
+    <string name="enables_the_display_of_an_associated_image_within_the_link_menu">Enables the display of an associated image within the link menu</string>
+    <string name="view_all">View All</string>
 </resources>
