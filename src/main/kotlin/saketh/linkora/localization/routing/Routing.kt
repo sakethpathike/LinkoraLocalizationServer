@@ -33,25 +33,25 @@ fun Application.configureRouting() {
                             ),
                             Language(
                                 languageName = "اَلْعَرَبِيَّةُ",
-                                languageCode = "arabic",
+                                languageCode = "arabic", // translated by https://crowdin.com/profile/muhammadbahaa2001
                                 localizedStringsCount = 263,
                                 contributionLink = "https://crowdin.com/editor/linkora/2/en-ar?filter=basic&value=0"
                             ),
                             Language(
                                 languageName = "polski",
-                                languageCode = "polish",
+                                languageCode = "polish", // translated by https://crowdin.com/profile/sbezel
                                 localizedStringsCount = 38,
                                 contributionLink = "https://crowdin.com/editor/linkora/2/en-pl?filter=basic&value=0"
                             ),
                             Language(
                                 languageName = "русский",
-                                languageCode = "russian",
+                                languageCode = "russian", // translated by https://crowdin.com/profile/antonov04.nk
                                 localizedStringsCount = 54,
                                 contributionLink = "https://crowdin.com/editor/linkora/2/en-ru?filter=basic&value=0"
                             ),
                             Language(
                                 languageName = "Português Brasileiro",
-                                languageCode = "portuguese_brazilian",
+                                languageCode = "portuguese_brazilian", // translated by https://crowdin.com/profile/lucmsilva
                                 localizedStringsCount = 102,
                                 contributionLink = "https://crowdin.com/editor/linkora/2/en-ptbr?filter=basic&value=0"
                             ),
