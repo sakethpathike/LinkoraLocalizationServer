@@ -31,9 +31,31 @@ fun Application.configureRouting() {
                                 localizedStringsCount = 285,
                                 contributionLink = ""
                             ),
-                        ),
-                        totalStrings = 285,
-                        lastUpdatedOn = "30-08-2024::06:23 PM"
+                            Language(
+                                languageName = "اَلْعَرَبِيَّةُ",
+                                languageCode = "arabic",
+                                localizedStringsCount = 263,
+                                contributionLink = "https://crowdin.com/editor/linkora/2/en-ar?filter=basic&value=0"
+                            ),
+                            Language(
+                                languageName = "polski",
+                                languageCode = "polish",
+                                localizedStringsCount = 38,
+                                contributionLink = "https://crowdin.com/editor/linkora/2/en-pl?filter=basic&value=0"
+                            ),
+                            Language(
+                                languageName = "русский",
+                                languageCode = "russian",
+                                localizedStringsCount = 54,
+                                contributionLink = "https://crowdin.com/editor/linkora/2/en-ru?filter=basic&value=0"
+                            ),
+                            Language(
+                                languageName = "Português Brasileiro",
+                                languageCode = "portuguese_brazilian",
+                                localizedStringsCount = 102,
+                                contributionLink = "https://crowdin.com/editor/linkora/2/en-ptbr?filter=basic&value=0"
+                            ),
+                        ), totalStrings = 285, lastUpdatedOn = "13-09-2024::07:08 PM"
                     )
                 )
             )
@@ -45,6 +67,19 @@ fun Application.configureRouting() {
 
         get(Route.HINDI.route) {
             call.respondText(localizedStrings.retrieveLocalizedStrings(Route.HINDI))
+        }
+
+        get(Route.ARABIC.route) {
+            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.ARABIC))
+        }
+        get(Route.POLISH.route) {
+            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.POLISH))
+        }
+        get(Route.PORTUGUESE_BRAZILIAN.route) {
+            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.PORTUGUESE_BRAZILIAN))
+        }
+        get(Route.RUSSIAN.route) {
+            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.RUSSIAN))
         }
     }
 }
