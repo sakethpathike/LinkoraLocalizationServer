@@ -18,7 +18,7 @@ fun Application.configureRouting() {
             call.respond(
                 Json.encodeToJsonElement<Info>(
                     Info(
-                        totalAvailableLanguages = 2, availableLanguages = listOf(
+                        totalAvailableLanguages = 6, availableLanguages = listOf(
                             Language(
                                 languageName = "English",
                                 languageCode = "en",
@@ -55,7 +55,7 @@ fun Application.configureRouting() {
                                 localizedStringsCount = 102,
                                 contributionLink = "https://crowdin.com/editor/linkora/2/en-ptbr?filter=basic&value=0"
                             ),
-                        ), totalStrings = 285, lastUpdatedOn = "13-09-2024::07:08 PM"
+                        ), totalStrings = 285, lastUpdatedOn = "14-09-2024::03:01 PM"
                     )
                 )
             )
