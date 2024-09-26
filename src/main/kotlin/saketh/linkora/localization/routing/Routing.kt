@@ -61,7 +61,7 @@ fun Application.configureRouting() {
                                 localizedStringsCount = 300,
                                 contributionLink = ""
                             ),
-                        ), totalStrings = 300, lastUpdatedOn = "26-09-2024::05:29 PM IST"
+                        ), totalStrings = 300, lastUpdatedOn = "26-09-2024::05:36 PM IST"
                     )
                 )
             )
