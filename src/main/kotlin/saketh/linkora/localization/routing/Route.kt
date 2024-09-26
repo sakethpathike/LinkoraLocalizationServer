@@ -7,4 +7,5 @@ enum class Route(val route: String) {
     POLISH("/polish"),
     PORTUGUESE_BRAZILIAN("/portuguese_brazilian"),
     RUSSIAN("/russian"),
+    SPANISH("/spanish"),
 }

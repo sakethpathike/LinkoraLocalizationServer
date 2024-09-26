@@ -22,13 +22,13 @@ fun Application.configureRouting() {
                             Language(
                                 languageName = "English",
                                 languageCode = "en",
-                                localizedStringsCount = 285,
+                                localizedStringsCount = 300,
                                 contributionLink = ""
                             ),
                             Language(
                                 languageName = "हिंदी",
                                 languageCode = "hi",
-                                localizedStringsCount = 285,
+                                localizedStringsCount = 300,
                                 contributionLink = ""
                             ),
                             Language(
@@ -55,7 +55,13 @@ fun Application.configureRouting() {
                                 localizedStringsCount = 102,
                                 contributionLink = "https://crowdin.com/editor/linkora/2/en-ptbr?filter=basic&value=0"
                             ),
-                        ), totalStrings = 285, lastUpdatedOn = "14-09-2024::03:01 PM"
+                            Language(
+                                languageName = "español",
+                                languageCode = "spanish", // translated by https://crowdin.com/profile/santillompart, https://crowdin.com/profile/jcba3z
+                                localizedStringsCount = 300,
+                                contributionLink = ""
+                            ),
+                        ), totalStrings = 300, lastUpdatedOn = "26-09-2024::05:11 PM IST"
                     )
                 )
             )
@@ -80,6 +86,9 @@ fun Application.configureRouting() {
         }
         get(Route.RUSSIAN.route) {
             call.respondText(localizedStrings.retrieveLocalizedStrings(Route.RUSSIAN))
+        }
+        get(Route.SPANISH.route) {
+            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.SPANISH))
         }
     }
 }
