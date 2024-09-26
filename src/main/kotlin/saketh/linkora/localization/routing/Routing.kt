@@ -61,7 +61,7 @@ fun Application.configureRouting() {
                                 localizedStringsCount = 300,
                                 contributionLink = ""
                             ),
-                        ), totalStrings = 300, lastUpdatedOn = "26-09-2024::05:11 PM IST"
+                        ), totalStrings = 300, lastUpdatedOn = "26-09-2024::05:29 PM IST"
                     )
                 )
             )
@@ -89,6 +89,9 @@ fun Application.configureRouting() {
         }
         get(Route.SPANISH.route) {
             call.respondText(localizedStrings.retrieveLocalizedStrings(Route.SPANISH))
+        }
+        get(Route.FRENCH.route) {
+            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.FRENCH))
         }
     }
 }
