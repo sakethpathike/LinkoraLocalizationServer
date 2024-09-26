@@ -278,7 +278,7 @@
 <string name="help_translate_linkora">Aidez à traduire Linkora</string>
 <string name="edit_panel_name">Modifier le nom du panneau \"$$$$\"</string>
 <string name="are_you_sure_want_to_delete_the_panel">Êtes-vous sûr de vouloir supprimer le panneau nommé \"$$$$\" ?</string>
-<string name="are_you_sure_want_to_delete_the_folder">Êtes-vous sûr de vouloir supprimer le dossier $$$$ ?</string>
+<string name="are_you_sure_want_to_delete_the_folder">Êtes-vous sûr de vouloir supprimer le dossier \"$$$$\" ?</string>
 <string name="rename_folder">Renommer le dossier \"$$$$\" :</string>
 <string name="create_a_new_internal_folder_in">Créer un nouveau dossier interne dans \"$$$$\" :</string>
 <string name="show_associated_image_in_link_menu">Afficher l'image associée dans le menu des liens</string>

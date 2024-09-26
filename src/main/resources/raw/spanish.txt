@@ -263,7 +263,7 @@
     <string name="no_folders_available_in_this_panel_add_folders_to_begin">No hay carpetas disponibles en este panel. Añade carpetas para comenzar.</string>
     <string name="you_can_find_saved_links_and_important_links_in_the_default_panel">Puede encontrar \"Enlaces guardados\" e \"Enlaces importantes\" en el panel \"Predeterminados\".</string>
     <string name="syncing_language_details_this_may_take_some_time">Sincronizando detalles de idioma. Esto puede tardar un poco.</string>
-    <string name="syncing_translations_for_this_may_take_some_time">Sincronizando traducciones para \"$$$\". Esto puede tardar un poco.</string>
+    <string name="syncing_translations_for_this_may_take_some_time">Sincronizando traducciones para \"$$$$\". Esto puede tardar un poco.</string>
     <string name="cannot_retrieve_now_please_try_again">No se puede recuperar ahora, por favor inténtelo nuevamente</string>
     <string name="fetched_successfully">Recuperado correctamente</string>
     <string name="socials">Redes Sociales</string>
@@ -276,10 +276,10 @@
     <string name="open_a_github_issue">Crea una propuesta en GitHub</string>
     <string name="changelog">Registro de cambios</string>
     <string name="help_translate_linkora">Ayuda a traducir Linkora</string>
-    <string name="edit_panel_name">Editar nombre del panel \"$$$\"</string>
+    <string name="edit_panel_name">Editar nombre del panel \"$$$$\"</string>
     <string name="are_you_sure_want_to_delete_the_panel">¿Está seguro de que desea eliminar el panel llamado \"$$$$\"?</string>
-    <string name="are_you_sure_want_to_delete_the_folder">¿Está seguro que desea eliminar la carpeta $$$$?</string>
-    <string name="rename_folder">Renombrar carpeta \"$$$\":</string>
+    <string name="are_you_sure_want_to_delete_the_folder">¿Está seguro que desea eliminar la carpeta \"$$$$\"?</string>
+    <string name="rename_folder">Renombrar carpeta \"$$$$\":</string>
     <string name="create_a_new_internal_folder_in">Crear nueva carpeta interna en \"$$$$\":</string>
     <string name="show_associated_image_in_link_menu">Mostrar imagen asociada en el menú de enlaces</string>
     <string name="enables_the_display_of_an_associated_image_within_the_link_menu">Habilita la visualización de una imagen asociada en el menú de enlace</string>
