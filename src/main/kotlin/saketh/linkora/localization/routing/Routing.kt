@@ -18,17 +18,17 @@ fun Application.configureRouting() {
             call.respond(
                 Json.encodeToJsonElement<Info>(
                     Info(
-                        totalAvailableLanguages = 6, availableLanguages = listOf(
+                        totalAvailableLanguages = 8, availableLanguages = listOf(
                             Language(
                                 languageName = "English",
                                 languageCode = "en",
-                                localizedStringsCount = 300,
+                                localizedStringsCount = 303,
                                 contributionLink = ""
                             ),
                             Language(
                                 languageName = "हिंदी",
                                 languageCode = "hi",
-                                localizedStringsCount = 300,
+                                localizedStringsCount = 303,
                                 contributionLink = ""
                             ),
                             Language(
@@ -58,41 +58,27 @@ fun Application.configureRouting() {
                             Language(
                                 languageName = "español",
                                 languageCode = "spanish", // translated by https://crowdin.com/profile/santillompart, https://crowdin.com/profile/jcba3z
-                                localizedStringsCount = 300,
+                                localizedStringsCount = 303,
                                 contributionLink = ""
                             ),
-                        ), totalStrings = 300, lastUpdatedOn = "26-09-2024::05:36 PM IST"
+                            Language(
+                                languageName = "français",
+                                languageCode = "french",
+                                localizedStringsCount = 303,
+                                contributionLink = ""
+                            ),
+                        ), totalStrings = 303, lastUpdatedOn = "29-09-2024::03:00 PM IST"
                     )
                 )
             )
         }
 
-        get(Route.ENGLISH.route) {
-            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.ENGLISH))
+        Route.entries.forEach { entry ->
+            get(entry.route) {
+                call.respondText(localizedStrings.retrieveLocalizedStrings(entry))
+            }
         }
 
-        get(Route.HINDI.route) {
-            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.HINDI))
-        }
-
-        get(Route.ARABIC.route) {
-            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.ARABIC))
-        }
-        get(Route.POLISH.route) {
-            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.POLISH))
-        }
-        get(Route.PORTUGUESE_BRAZILIAN.route) {
-            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.PORTUGUESE_BRAZILIAN))
-        }
-        get(Route.RUSSIAN.route) {
-            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.RUSSIAN))
-        }
-        get(Route.SPANISH.route) {
-            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.SPANISH))
-        }
-        get(Route.FRENCH.route) {
-            call.respondText(localizedStrings.retrieveLocalizedStrings(Route.FRENCH))
-        }
     }
 }
 

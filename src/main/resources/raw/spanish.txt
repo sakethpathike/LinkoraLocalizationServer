@@ -299,4 +299,7 @@
     <string name="title_only_list_view">Vista de lista solo con títulos</string>
     <string name="grid_view">Vista en cuadrícula</string>
     <string name="staggered_view">Vista escalonada</string>
+    <string name="advanced">Avanzado</string>
+    <string name="clear_image_cache">Vaciar caché de imágenes</string>
+    <string name="clear_image_cache_desc">Las imágenes se almacenan en caché por defecto. Cambiar el agente de usuario puede afectar lo que ves. Para corregir esto, vacía el caché.</string>
 </resources>

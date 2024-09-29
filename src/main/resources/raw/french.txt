@@ -299,4 +299,7 @@
 <string name="title_only_list_view">Vue liste avec titre seulement</string>
 <string name="grid_view">Vue en grille</string>
 <string name="staggered_view">Vue en décalé</string>
+<string name="advanced">Avancé</string>
+<string name="clear_image_cache">Vider le cache des images</string>
+<string name="clear_image_cache_desc">Les images sont mises en cache par défaut. Le changement d'agent utilisateur peut affecter ce que vous voyez. Pour corriger cela, videz le cache.</string>
 </resources>
