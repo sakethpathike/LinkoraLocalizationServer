@@ -22,52 +22,52 @@ fun Application.configureRouting() {
                             Language(
                                 languageName = "English",
                                 languageCode = "en",
-                                localizedStringsCount = 303,
+                                localizedStringsCount = 328,
                                 contributionLink = ""
                             ),
                             Language(
                                 languageName = "हिंदी",
                                 languageCode = "hi",
-                                localizedStringsCount = 303,
+                                localizedStringsCount = 328,
                                 contributionLink = ""
                             ),
                             Language(
                                 languageName = "اَلْعَرَبِيَّةُ",
                                 languageCode = "arabic", // translated by https://crowdin.com/profile/muhammadbahaa2001
                                 localizedStringsCount = 263,
-                                contributionLink = "https://crowdin.com/editor/linkora/2/en-ar?filter=basic&value=0"
+                                contributionLink = ""
                             ),
                             Language(
                                 languageName = "polski",
                                 languageCode = "polish", // translated by https://crowdin.com/profile/sbezel
                                 localizedStringsCount = 38,
-                                contributionLink = "https://crowdin.com/editor/linkora/2/en-pl?filter=basic&value=0"
+                                contributionLink = ""
                             ),
                             Language(
                                 languageName = "русский",
                                 languageCode = "russian", // translated by https://crowdin.com/profile/antonov04.nk
                                 localizedStringsCount = 54,
-                                contributionLink = "https://crowdin.com/editor/linkora/2/en-ru?filter=basic&value=0"
+                                contributionLink = ""
                             ),
                             Language(
                                 languageName = "Português Brasileiro",
                                 languageCode = "portuguese_brazilian", // translated by https://crowdin.com/profile/lucmsilva
                                 localizedStringsCount = 102,
-                                contributionLink = "https://crowdin.com/editor/linkora/2/en-ptbr?filter=basic&value=0"
+                                contributionLink = ""
                             ),
                             Language(
                                 languageName = "español",
                                 languageCode = "spanish", // translated by https://crowdin.com/profile/santillompart, https://crowdin.com/profile/jcba3z
-                                localizedStringsCount = 303,
+                                localizedStringsCount = 328,
                                 contributionLink = ""
                             ),
                             Language(
                                 languageName = "français",
                                 languageCode = "french",
-                                localizedStringsCount = 303,
+                                localizedStringsCount = 328,
                                 contributionLink = ""
                             ),
-                        ), totalStrings = 303, lastUpdatedOn = "29-09-2024::03:00 PM IST"
+                        ), totalStrings = 328, lastUpdatedOn = "12-10-2024::06:02 PM IST"
                     )
                 )
             )

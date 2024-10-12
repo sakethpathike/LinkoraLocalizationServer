@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">लिंकओरा</string>
     <string name="home">होम</string>
@@ -215,7 +214,7 @@
     <string name="refresh_all_links_titles_and_images">सभी लिंक के शीर्षक और चित्रों को ताज़ा करें</string>
     <string name="refresh_all_links_titles_and_images_desc">मैन्युअल रूप से दर्ज किए गए शीर्षक का पता लगाए गए शीर्षकों से बदल दिया जाएगा।</string>
     <string name="user_agent_desc">यह वेब पेज मेटा टैग्स से छवियों और शीर्षकों का पता लगाने में मदद करता है; विभिन्न एजेंट स्ट्रिंग्स पता लगाए गए डेटा को बदल सकते हैं।</string>
-    <string name="user_agent">यूसर एजेंट</string>
+    <string name="primary_user_agent">यूसर एजेंट</string>
     <string name="refreshing_links">लिंक को रिफ्रेश किया जा रहा है…</string>
     <string name="work_manager_desc">वर्क मैनेजर लिंक रिफ्रेश को शेड्यूल कर रहा है। यह जल्दी ही जारी रहेगा।</string>
     <string name="links_refreshed">लिंक को रिफ्रेश किया गया</string>
@@ -303,4 +302,29 @@
     <string name="advanced">एडवांस्ड</string>
     <string name="clear_image_cache">इमेज कैश हटाएं</string>
     <string name="clear_image_cache_desc">इमेज डिफ़ॉल्ट रूप से कैश होती हैं। यूज़र एजेंट बदलने से आपको जो दिखता है उस पर असर पड़ सकता है। इसे ठीक करने के लिए कैश हटाएं।</string>
+    <string name="will_be_used_to_retrieve_metadata">मेटाडेटा प्राप्त करने के लिए उपयोग किया जाएगा</string>
+    <string name="user_agent">उपयोगकर्ता एजेंट</string>
+    <string name="initial_request_failed">प्रारंभिक अनुरोध विफल हो गया</string>
+    <string name="retrying_metadata_retrieval_with_a_secondary_user_agent">द्वितीयक उपयोगकर्ता एजेंट के साथ मेटाडेटा पुनः प्राप्त करने का प्रयास कर रहे हैं:\n</string>
+    <string name="site_specific_user_agent_settings">साइट-विशिष्ट उपयोगकर्ता एजेंट सेटिंग्स</string>
+    <string name="secondary_user_agent_desc">यदि प्राथमिक उपयोगकर्ता एजेंट के साथ अनुरोध विफल हो जाता है तो लिंकॉरा इस उपयोगकर्ता एजेंट का उपयोग करता है।</string>
+    <string name="secondary_user_agent">द्वितीयक उपयोगकर्ता एजेंट</string>
+    <string name="a_folder_cannot_be_moved_into_itself">एक फ़ोल्डर को अपने भीतर स्थानांतरित नहीं किया जा सकता।</string>
+    <string name="wait_for_the_operation_to_finish">क्रिया समाप्त होने की प्रतीक्षा करें</string>
+    <string name="move_to_root_folders">रूट फ़ोल्डर्स में स्थानांतरित करें</string>
+    <string name="copy_folder">फ़ोल्डर कॉपी करें</string>
+    <string name="copy_link">लिंक कॉपी करें</string>
+    <string name="move_to_other_folder">अन्य फ़ोल्डर में स्थानांतरित करें</string>
+    <string name="move_link">लिंक स्थानांतरित करें</string>
+    <string name="item_selected">आइटम चयनित</string>
+    <string name="add_a_new_site_specific_user_agent">नया साइट-विशिष्ट उपयोगकर्ता एजेंट जोड़ें</string>
+    <string name="no_site_specific_user_agent_found_add_one_to_always_retrieve_metadata_from_it">कोई साइट-विशिष्ट उपयोगकर्ता एजेंट नहीं मिला।\nहमेशा इसके माध्यम से मेटाडेटा प्राप्त करने के लिए एक जोड़ें।</string>
+    <string name="domain">डोमेन</string>
+    <string name="only_the_domain_should_be_saved_for_example_save">केवल डोमेन को ही सहेजना चाहिए।\nउदाहरण के लिए, सहेजें</string>
+    <string name="as">जैसे</string>
+    <string name="delete">हटाएं</string>
+    <string name="invalid_domain">अमान्य डोमेन</string>
+    <string name="use_amoled_theme">एमोलेड थीम का उपयोग करें</string>
+    <string name="_folders_selected">"चयनित फ़ोल्डर : "</string>
+    <string name="links_selected">"चयनित लिंक : "</string>
 </resources>
